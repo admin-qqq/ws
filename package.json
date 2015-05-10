@@ -21,6 +21,7 @@
   "homepage": "https://github.com/admin-qqq/ws",
   "dependencies": {
     "basic-auth": "^1.0.1",
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "ws": "^0.7.1"
   }
 }
