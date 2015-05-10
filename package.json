@@ -1,0 +1,25 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admin-qqq/ws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/admin-qqq/ws/issues"
+  },
+  "homepage": "https://github.com/admin-qqq/ws",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
