@@ -1,4 +1,5 @@
 var basicAuth = require('basic-auth');
+var config = require('../config.json');
 var auth = function (req, res, next) {
     function unauthorized(res) {
         res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
@@ -11,7 +12,7 @@ var auth = function (req, res, next) {
         return unauthorized(res);
     }
 
-    if (user.name === 'foo' && user.pass === 'bar') {
+    if (user.name === config.userName && user.pass === config.userPassword) {
         return next();
     } else {
         return unauthorized(res);
